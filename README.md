@@ -23,7 +23,9 @@ Nakon prijave, korisnik dolazi u glavni meni.
 Pri zapocinjanju pretrage za protivnikom server trazi drugog korisnika koji trenutno takodjer zapocinje pretragu.
 Pokusavaju se upariti korisnici sa sto manjom razlikom u rangu, ali se kriterij siri i prema gore i prema dole sto duze nije moguce naci odgovarajuceg protivnika.
 
-### Igranje jedne partije
+### Igranje jedne kampanje
+
+Po zapocinjanju kampanje, igrac se smjesta u nasumican proceduralno generisan svijet i napreduje po cvorovima do konacnog cvora. Po gubitku partije ili pobjedi u konacnom cvoru, kampanja se zavrsava i korisnik dobija nagrade na osnovu njegovog uspjeha u kampanji. Svaki cvor ukljucuje sukob sa drugim korisnikom i pobjeda u sukobu je uslov za nastavak.
 
 ### Predlaganje novog sadrzaja
 
@@ -33,9 +35,9 @@ Korisnik ulazi u aktivnost za predlaganje novog sadrzaja i tu ima mogucnost da o
 
 Korisnik ulazi u aktivnost za glasanje o novom sadrzaju i ima mogucnost da pogleda predlozene sadrzaje i da glasa da li ga zeli u igri ili ne. Takodjer ima mogucnost da prijavi moderatoru za neprimjeren sadrzaj.
 
-### Banovanje/odbanovanje korisnika
+### Zabrana/davanje pristupa sistemu korisniku
 
-Moderator ili administrator u administratorskoj aplikaciji trazi odredjenog korisnika i ima mogucnost da mu rucno zabrani pristup serverima, i time mu onemoguci igranje s drugim igracima ili da ga odbanuje i time mu vrati sva igraca prava u slucaju da su bila izgubljena.
+Moderator ili administrator u administratorskom meniju trazi odredjenog korisnika i ima mogucnost da mu rucno zabrani pristup serverima, i time mu onemoguci igranje s drugim igracima ili da ga odbanuje i time mu vrati sva igraca prava u slucaju da su bila izgubljena.
 
 ### Brisanje predlozenog sadrzaja
 
@@ -47,13 +49,21 @@ U slucaju da tako odluci, administrator moze da odredjeni predlozeni sadrzaj dod
 
 ## Funkcionalnosti
 
-### Proceduralno generisan svijet 
+### Dodavanje korisnicki generisanog sadrzaja
+
+Korisnici imaju mogucnost da predlazu novi sadrzaj i glasaju za to koji sadrzaj zele da se implementira u igru i time oni odredjuju u kojem ce se smjeru igra razvijati.
+
+### Proceduralno generisan svijet
+
+Na pocetku svake kampanje se stvara novi svijet koristeci ukljucene sadrzaje, kao i sadrzaje koje su dodali drugi korisnici. Time se osigurava da svaka kampanja bude jednistvena.
 
 ### Korisnicki podaci se cuvaju na cloudu (Azure)
 
-### Povezivanje igraca na osnovu ranga (ELO sistem)
+Svi korisnicki podaci su sigurni i cuvaju se na cloudu. Pored toga, server sluzi za validaciju unosa i poteza da bi se sprijecilo varanje.
 
-### Dodavanje korisnicki generisanog sadrzaja
+### Povezivanje igraca na osnovu ranga (Elo sistem)
+
+Koristi se Elo sistem, provjeren sistem rangiranja takmicara na osnovu sposobnosti koji se poceo koristi za rangiranje sahista i danas ima nezamjenjivu ulogu kao objektivna mjera sposobnosti u "1-na-1" takmicenjima.
 
 ## Akteri
 
