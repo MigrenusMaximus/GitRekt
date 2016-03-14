@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazerekt", "Lazerekt\Lazerekt.csproj", "{3EDEE0E3-0011-441B-A5F7-17D2562EEF9B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projekat", "Projekat", "{4387D736-CB4C-4304-BA0F-E93FAAD3AF20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,8 +36,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3EDEE0E3-0011-441B-A5F7-17D2562EEF9B} = {4387D736-CB4C-4304-BA0F-E93FAAD3AF20}
 	EndGlobalSection
 EndGlobal
