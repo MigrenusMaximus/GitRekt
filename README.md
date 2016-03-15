@@ -1,4 +1,6 @@
-# Lazerekt - korisnicki generisana potezna strategija za vise igraca u stvarnom vremenu
+![Lazerekt](lazerekt_logo.png)
+
+# Korisnicki generisana potezna strategija za vise igraca u stvarnom vremenu
 
 1. Fedja Tica
 2. Igor Vasiljevic
