@@ -4,8 +4,8 @@
 
 1. Fedja Tica
 2. Igor Vasiljevic
-3. Belmin Began (?) - nismo uspjeli stupiti u kontakt
-4. Imran Polic (?) - nismo uspjeli stupiti u kontakt
+3. Imran Polic
+4. Belmin Began (?) - nismo uspjeli stupiti u kontakt
 
 ## Opis teme
 
