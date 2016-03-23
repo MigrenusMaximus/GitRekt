@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="User" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 11px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="DijagramRegistracija" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="11" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<OfficeExchangeOptions GenerateBlankModel="false" GenerateTableOfContent="true" InsertPageBreak="true"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="NEcDxcqGAqAAjgf7" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="tEcDxcqGAqAAjgf8" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="dEcDxcqGAqAAjgf9" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="dEcDxcqGAqAAjgf." LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="dEcDxcqGAqAAjgf_" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="VfsDxcqGAqAAjgX." Name="boolean" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.722" PmLastModified="2016-03-23T14:55:04.691" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="dfsDxcqGAqAAjgX_" Name="byte" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.726" PmLastModified="2016-03-23T14:55:04.754" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="9fsDxcqGAqAAjgYA" Name="char" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.727" PmLastModified="2016-03-23T14:55:04.776" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="9fsDxcqGAqAAjgYB" Name="double" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.727" PmLastModified="2016-03-23T14:55:04.776" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="DfsDxcqGAqAAjgYC" Name="float" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.728" PmLastModified="2016-03-23T14:55:04.659" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="jfsDxcqGAqAAjgYD" Name="int" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.729" PmLastModified="2016-03-23T14:55:04.732" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="jfsDxcqGAqAAjgYE" Name="long" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.729" PmLastModified="2016-03-23T14:55:04.731" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="TfsDxcqGAqAAjgYF" Name="short" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.730" PmLastModified="2016-03-23T14:55:04.760" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="zfsDxcqGAqAAjgYG" Name="void" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.731" PmLastModified="2016-03-23T14:55:04.675" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="zfsDxcqGAqAAjgYH" Name="string" PmAuthor="User" PmCreateDateTime="2016-03-23T14:53:59.731" PmLastModified="2016-03-23T14:55:04.674" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Activity BodyFontSize="0" Documentation_plain="" Id="WlOdxcqGAqAAjgUb" Name="Registracija" PmAuthor="User" PmCreateDateTime="2016-03-23T14:46:15.514" PmLastModified="2016-03-23T14:55:04.633" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+			<MasterView>
+				<Activity Idref="0tKDxcqGAqAAjggL" Name="Registracija"/>
+			</MasterView>
+			<ModelChildren>
+				<ActivityAction Documentation_plain="" Id="4vedxcqGAqAAjgUk" Leaf="false" MustIsolate="false" Name="Unos podataka" PmAuthor="User" PmCreateDateTime="2016-03-23T14:46:24.967" PmLastModified="2016-03-23T14:55:04.664" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<GenericConnector Idref="Ydk9xcqGAqAAjgWX" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<GenericConnector Idref="ZLE9xcqGAqAAjgWT" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="2DKDxcqGAqAAjggW" Name="Unos podataka"/>
+					</MasterView>
+				</ActivityAction>
+				<InitialNode Documentation_plain="" Id="idxdxcqGAqAAjgUv" Leaf="false" MustIsolate="false" Name="" PmAuthor="User" PmCreateDateTime="2016-03-23T14:46:44.497" PmLastModified="2016-03-23T14:55:04.680" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<GenericConnector Idref="ZLE9xcqGAqAAjgWT" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<InitialNode Idref="NDKDxcqGAqAAjggZ" Name=""/>
+					</MasterView>
+				</InitialNode>
+				<ActivityAction Documentation_plain="" Id="QEFdxcqGAqAAjgVE" Leaf="false" MustIsolate="false" Name="Zakljucivanje registracije" PmAuthor="User" PmCreateDateTime="2016-03-23T14:47:02.530" PmLastModified="2016-03-23T14:55:04.732" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<GenericConnector Idref="fWU9xcqGAqAAjgWb" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<GenericConnector Idref="Ydk9xcqGAqAAjgWX" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="7DKDxcqGAqAAjggc" Name="Zakljucivanje registracije"/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityAction Documentation_plain="" Id="QBddxcqGAqAAjgVP" Leaf="false" MustIsolate="false" Name="Provjera podataka" PmAuthor="User" PmCreateDateTime="2016-03-23T14:47:28.642" PmLastModified="2016-03-23T14:55:04.680" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<ToSimpleRelationships>
+						<GenericConnector Idref="fWU9xcqGAqAAjgWb" Name=""/>
+						<GenericConnector Idref="bms9xcqGAqAAjgWh" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="wjKDxcqGAqAAjggf" Name="Provjera podataka"/>
+					</MasterView>
+				</ActivityAction>
+				<DecisionNode Documentation_plain="" Id="Lj3dxcqGAqAAjgVi" Leaf="false" MustIsolate="false" Name="" PmAuthor="User" PmCreateDateTime="2016-03-23T14:48:23.028" PmLastModified="2016-03-23T14:55:04.628" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<GenericConnector Idref="bms9xcqGAqAAjgWh" Name=""/>
+						<GenericConnector Idref="cd89xcqGAqAAjgWt" Name="Podaci prihvaceni"/>
+						<GenericConnector Idref="aaG9xcqGAqAAjgXD" Name="Greska u podacima"/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<DecisionNode Idref="ijKDxcqGAqAAjggi" Name=""/>
+					</MasterView>
+				</DecisionNode>
+				<ActivityFinalNode Documentation_plain="" Id="KmfdxcqGAqAAjgVz" Leaf="false" MustIsolate="false" Name="" PmAuthor="User" PmCreateDateTime="2016-03-23T14:48:33.748" PmLastModified="2016-03-23T14:55:04.705" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<ToSimpleRelationships>
+						<GenericConnector Idref="cd89xcqGAqAAjgWt" Name="Podaci prihvaceni"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityFinalNode Idref="BjKDxcqGAqAAjggl" Name=""/>
+					</MasterView>
+				</ActivityFinalNode>
+				<ActivityAction Documentation_plain="" Id="cQA9xcqGAqAAjgV." Leaf="false" MustIsolate="false" Name="Povratak na registraciju" PmAuthor="User" PmCreateDateTime="2016-03-23T14:48:40.462" PmLastModified="2016-03-23T14:55:04.719" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<ToSimpleRelationships>
+						<GenericConnector Idref="aaG9xcqGAqAAjgXD" Name="Greska u podacima"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="VjKDxcqGAqAAjggo" Name="Povratak na registraciju"/>
+					</MasterView>
+				</ActivityAction>
+			</ModelChildren>
+		</Activity>
+		<ModelRelationshipContainer Documentation_plain="" Id=".jFlxcqGAqAAjgSo" Name="relationships" PmAuthor="User" PmCreateDateTime="2016-03-23T14:25:14.463" PmLastModified="2016-03-23T14:55:04.744" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ModelRelationshipContainer Documentation_plain="" Id="mzFlxcqGAqAAjgSp" Name="GenericConnector" PmAuthor="User" PmCreateDateTime="2016-03-23T14:25:14.585" PmLastModified="2016-03-23T14:55:04.778" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<GenericConnector Documentation_plain="" From="idxdxcqGAqAAjgUv" Id="ZLE9xcqGAqAAjgWT" PmAuthor="User" PmCreateDateTime="2016-03-23T14:49:16.454" PmLastModified="2016-03-23T14:55:04.664" QualityScore="-1" To="4vedxcqGAqAAjgUk" UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="bjKDxcqGAqAAjggr"/>
+							</MasterView>
+						</GenericConnector>
+						<GenericConnector Documentation_plain="" From="4vedxcqGAqAAjgUk" Id="Ydk9xcqGAqAAjgWX" PmAuthor="User" PmCreateDateTime="2016-03-23T14:49:20.134" PmLastModified="2016-03-23T14:55:04.644" QualityScore="-1" To="QEFdxcqGAqAAjgVE" UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="JTKDxcqGAqAAjggx"/>
+							</MasterView>
+						</GenericConnector>
+						<GenericConnector Documentation_plain="" From="QEFdxcqGAqAAjgVE" Id="fWU9xcqGAqAAjgWb" PmAuthor="User" PmCreateDateTime="2016-03-23T14:49:23.006" PmLastModified="2016-03-23T14:55:04.680" QualityScore="-1" To="QBddxcqGAqAAjgVP" UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="vTKDxcqGAqAAjgg1"/>
+							</MasterView>
+						</GenericConnector>
+						<GenericConnector Documentation_plain="" From="Lj3dxcqGAqAAjgVi" Id="bms9xcqGAqAAjgWh" PmAuthor="User" PmCreateDateTime="2016-03-23T14:49:35.222" PmLastModified="2016-03-23T14:55:04.628" QualityScore="-1" To="QBddxcqGAqAAjgVP" UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="azKDxcqGAqAAjgg5"/>
+							</MasterView>
+						</GenericConnector>
+						<GenericConnector Documentation_plain="" From="Lj3dxcqGAqAAjgVi" Id="cd89xcqGAqAAjgWt" Name="Podaci prihvaceni" PmAuthor="User" PmCreateDateTime="2016-03-23T14:49:44.718" PmLastModified="2016-03-23T14:55:04.628" QualityScore="-1" To="KmfdxcqGAqAAjgVz" UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="tzKDxcqGAqAAjgg9" Name="Podaci prihvaceni"/>
+							</MasterView>
+						</GenericConnector>
+						<GenericConnector Documentation_plain="" From="Lj3dxcqGAqAAjgVi" Id="aaG9xcqGAqAAjgXD" Name="Greska u podacima" PmAuthor="User" PmCreateDateTime="2016-03-23T14:50:20.054" PmLastModified="2016-03-23T14:55:04.629" QualityScore="-1" To="cQA9xcqGAqAAjgV." UserIDLastNumericValue="0">
+							<MasterView>
+								<GenericConnector Idref="oLKDxcqGAqAAjghB" Name="Greska u podacima"/>
+							</MasterView>
+						</GenericConnector>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<ActivityDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" ControlFlowDisplayOption="0" DecisionMergeNodeConnectionPointStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="573" HideEmptyTaggedValues="false" Id="M_yDxcqGAqAAjggA" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="DijagramRegistracija" ObjectNodeShowInStates="2" ObjectNodeShowType="true" PaintConnectorThroughLabel="1" PmAuthor="User" PmCreateDateTime="2016-03-23T14:54:24.332" PmLastModified="2016-03-23T14:55:27.061" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActionCallBehaviorOption="1" ShowActivityEdgeWeight="true" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowPartitionHeader="0" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1364" X="0" Y="0" ZoomRatio="1.0" _alwaysShowReferenceAndSubdiagramResource="true" _globalPaletteOption="true" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 11px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+			<Shapes>
+				<Activity Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="185" Id="0tKDxcqGAqAAjggL" MetaModelElement="WlOdxcqGAqAAjgUb" Model="WlOdxcqGAqAAjgUb" ModelElementNameAlignment="0" Name="Registracija" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="808" X="85" Y="68" ZOrder="15">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="21" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="77" X="0" Y="0"/>
+					<DiagramElementChildren>
+						<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="44" Id="2DKDxcqGAqAAjggW" MetaModelElement="4vedxcqGAqAAjgUk" Model="4vedxcqGAqAAjgUk" ModelElementNameAlignment="9" Name="Unos podataka" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="65" X="190" Y="138" ZOrder="13">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="44" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="65" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</ActivityAction>
+						<InitialNode Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="1" Foreground="rgb(0, 0, 0)" Height="20" Id="NDKDxcqGAqAAjggZ" MetaModelElement="idxdxcqGAqAAjgUv" Model="idxdxcqGAqAAjgUv" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="40" X="108" Y="150" ZOrder="11">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="118" Y="170"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</InitialNode>
+						<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="47" Id="7DKDxcqGAqAAjggc" MetaModelElement="QEFdxcqGAqAAjgVE" Model="QEFdxcqGAqAAjgVE" ModelElementNameAlignment="9" Name="Zakljucivanje registracije" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="89" X="316" Y="137" ZOrder="8">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="47" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="89" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</ActivityAction>
+						<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="43" Id="wjKDxcqGAqAAjggf" MetaModelElement="QBddxcqGAqAAjgVP" Model="QBddxcqGAqAAjgVP" ModelElementNameAlignment="9" Name="Provjera podataka" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="75" X="466" Y="137" ZOrder="6">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="43" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="75" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</ActivityAction>
+						<DecisionNode Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="1" DecisionMergeNodeConnectionPointStyle="2" Foreground="rgb(0, 0, 0)" Height="40" Id="ijKDxcqGAqAAjggi" MetaModelElement="Lj3dxcqGAqAAjgVi" Model="Lj3dxcqGAqAAjgVi" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="20" X="602" Y="138" ZOrder="4">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="602" Y="178"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</DecisionNode>
+						<ActivityFinalNode Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="1" Foreground="rgb(0, 0, 0)" Height="20" Id="BjKDxcqGAqAAjggl" MetaModelElement="KmfdxcqGAqAAjgVz" Model="KmfdxcqGAqAAjgVz" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="20" X="781" Y="117" ZOrder="2">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="781" Y="137"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</ActivityFinalNode>
+						<ActivityAction Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="40" Id="VjKDxcqGAqAAjggo" MetaModelElement="cQA9xcqGAqAAjgV." Model="cQA9xcqGAqAAjgV." ModelElementNameAlignment="9" Name="Povratak na registraciju" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowCallBehaviorOption="0" ShowStereotypeIconName="0" Width="94" X="744" Y="170" ZOrder="0">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="94" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</ActivityAction>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Activity>
+			</Shapes>
+			<Connectors>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="NDKDxcqGAqAAjggZ" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="bjKDxcqGAqAAjggr" MetaModelElement="ZLE9xcqGAqAAjgWT" Model="ZLE9xcqGAqAAjgWT" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="2DKDxcqGAqAAjggW" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="152" X="87" Y="110" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="153" Y="160"/>
+					<Points>
+						<Point X="137.0" Y="160.0"/>
+						<Point X="189.0" Y="160.0"/>
+					</Points>
+				</GenericConnector>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="2DKDxcqGAqAAjggW" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="JTKDxcqGAqAAjggx" MetaModelElement="Ydk9xcqGAqAAjgWX" Model="Ydk9xcqGAqAAjgWX" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="7DKDxcqGAqAAjggc" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="160" X="205" Y="107" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="275" Y="157"/>
+					<Points>
+						<Point X="255.0" Y="157.0"/>
+						<Point X="315.0" Y="157.0"/>
+					</Points>
+				</GenericConnector>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="7DKDxcqGAqAAjggc" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="vTKDxcqGAqAAjgg1" MetaModelElement="fWU9xcqGAqAAjgWb" Model="fWU9xcqGAqAAjgWb" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="wjKDxcqGAqAAjggf" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="160" X="355" Y="110" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="425" Y="160"/>
+					<Points>
+						<Point X="405.0" Y="160.0"/>
+						<Point X="465.0" Y="160.0"/>
+					</Points>
+				</GenericConnector>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="ijKDxcqGAqAAjggi" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="azKDxcqGAqAAjgg5" MetaModelElement="bms9xcqGAqAAjgWh" Model="bms9xcqGAqAAjgWh" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="wjKDxcqGAqAAjggf" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="164" X="491" Y="108" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="563" Y="158"/>
+					<Points>
+						<Point X="605.0" Y="158.0"/>
+						<Point X="541.0" Y="158.0"/>
+					</Points>
+				</GenericConnector>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="ijKDxcqGAqAAjggi" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="120" Id="tzKDxcqGAqAAjgg9" MetaModelElement="cd89xcqGAqAAjgWt" Model="cd89xcqGAqAAjgWt" Name="Podaci prihvaceni" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="BjKDxcqGAqAAjggl" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="270" X="562" Y="77" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="107" X="634" Y="112"/>
+					<Points>
+						<Point X="612.0" Y="147.0"/>
+						<Point X="613.0" Y="127.0"/>
+						<Point X="782.0" Y="127.0"/>
+					</Points>
+				</GenericConnector>
+				<GenericConnector Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="ijKDxcqGAqAAjggi" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="121" Id="oLKDxcqGAqAAjghB" MetaModelElement="aaG9xcqGAqAAjgXD" Model="aaG9xcqGAqAAjgXD" Name="Greska u podacima" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="VjKDxcqGAqAAjggo" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="231" X="562" Y="119" ZOrder="-1">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="116" X="624" Y="173"/>
+					<Points>
+						<Point X="612.0" Y="169.0"/>
+						<Point X="613.0" Y="190.0"/>
+						<Point X="743.0" Y="190.0"/>
+					</Points>
+				</GenericConnector>
+			</Connectors>
+		</ActivityDiagram>
+	</Diagrams>
+</Project>
