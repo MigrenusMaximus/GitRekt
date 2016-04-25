@@ -18,9 +18,9 @@ namespace Lazerekt.LazerektBaza.Modeli
         public DbSet<CrewMember> CrewMembers { get; set; }  
         //public DbSet<Position> Positions { get; set; }
         //public DbSet<Ship> Ships { get; set; }
-        //public DbSet<Suggestion> Suggetions { get; set; }     
+        public DbSet<Suggestion> Suggetions { get; set; }     
         //public DbSet<Report> Reports { get; set; }
-        //public DbSet<Reason> Reasons { get; set; }
+        public DbSet<Reason> Reasons { get; set; }
         //public DbSet<SuggestionReport> SuggestionReports { get; set; }
         //public DbSet<UserReport> UserReports { get; set; }
 
