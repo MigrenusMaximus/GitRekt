@@ -1,0 +1,1 @@
+Dijagram klasa prati sve SOLID principe.
