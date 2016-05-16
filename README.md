@@ -1,6 +1,6 @@
 ![Lazerekt](lazerekt_logo.png)
 
-![Overkill]https://github.com/igorvasiljevic/Overkill
+![Overkill](https://github.com/igorvasiljevic/Overkill)
 
 # Korisnicki generisana potezna strategija za vise igraca u stvarnom vremenu
 
