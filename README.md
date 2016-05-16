@@ -1,5 +1,7 @@
 ![Lazerekt](lazerekt_logo.png)
 
+https://github.com/igorvasiljevic/Overkill
+
 # Korisnicki generisana potezna strategija za vise igraca u stvarnom vremenu
 
 1. Fedja Tica
