@@ -15,8 +15,8 @@ namespace Lazerekt.LazerektBaza.Modeli
         public int playerTwoUid { get; set; }
         public int attackerUid { get; set; }
         public Ship currentShip { get; set; }
-        public Map<CrewMember, Position> playerOneCrew { get; set; }
-        public Map<CrewMember, Position> playerTwoCrew { get; set; }
+        public Dictionary<CrewMember, Position> playerOneCrew { get; set; }
+        public Dictionary<CrewMember, Position> playerTwoCrew { get; set; }
         public int round { get; set; }
         public int turn { get; set; }
         public int playerOneWins { get; set; }

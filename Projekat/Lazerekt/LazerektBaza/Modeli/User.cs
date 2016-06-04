@@ -16,7 +16,7 @@ namespace Lazerekt.LazerektBaza.Modeli
         public int gameid { get; set; }
         public Ship ship { get; set; }
         public int elo { get; set; }
-        public Map<Ship, bool> unlockedShips { get; set; }
-        public Map<CrewMember, bool> unlockedCrew { get; set; }
+        public Dictionary<Ship, bool> unlockedShips { get; set; }
+        public Dictionary<CrewMember, bool> unlockedCrew { get; set; }
     }
 }

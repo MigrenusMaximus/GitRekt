@@ -104,10 +104,30 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CommunityHub.xaml.cs">
+      <DependentUpon>CommunityHub.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Game.xaml.cs">
+      <DependentUpon>Game.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LazerektBaza\Modeli\CrewMember.cs" />
+    <Compile Include="LazerektBaza\Modeli\Game.cs" />
     <Compile Include="LazerektBaza\Modeli\LazerektDBContext.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="LazerektBaza\Modeli\Position.cs" />
+    <Compile Include="LazerektBaza\Modeli\Reason.cs" />
+    <Compile Include="LazerektBaza\Modeli\Ship.cs" />
+    <Compile Include="LazerektBaza\Modeli\Suggestion.cs" />
+    <Compile Include="LazerektBaza\Modeli\SuggestionReport.cs" />
+    <Compile Include="LazerektBaza\Modeli\User.cs" />
+    <Compile Include="LazerektBaza\Modeli\UserReport.cs" />
+    <Compile Include="Pages\Options.xaml.cs">
+      <DependentUpon>Options.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pregame.xaml.cs">
+      <DependentUpon>Pregame.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -118,6 +138,8 @@
     <None Include="Lazerekt_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Lazerekt.png" />
+    <Content Include="Assets\Images\Stars.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -132,9 +154,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
+    <Page Include="Pages\CommunityHub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Game.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Options.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Pregame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup />

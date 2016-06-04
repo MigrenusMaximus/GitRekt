@@ -11,8 +11,8 @@ namespace Lazerekt.LazerektBaza.Modeli
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string name { get; set; }
-        public List<Postion> layout { get; set; }
-        public List<Postion> airlock { get; set; }
-        public Map<CrewMember, Position> crew { get; set; }
+        public List<Position> layout { get; set; }
+        public List<Position> airlock { get; set; }
+        public Dictionary<CrewMember, Position> crew { get; set; }
     }
 }
