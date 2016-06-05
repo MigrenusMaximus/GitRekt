@@ -24,8 +24,7 @@
         </Grid.ColumnDefinitions>
         <Image Source="ms-appx:///Assets/Images/Stars.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.RowSpan="7" />
         <Image Source="ms-appx:///Assets/Images/Lazerekt.png" Stretch="Uniform" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.ColumnSpan="3"/>
-
-        <Button Grid.Column="1" Grid.Row="1" x:Name="btnPlay" Content="Play" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" FontSize="33.333" Click="btnPlay_Click">
+        <Button Grid.Column="1" Grid.Row="3" x:Name="btnLogin" Content="Login" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" RenderTransformOrigin="0.5,0.5" FontSize="33.333" TabIndex="2">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE0E0E0" Offset="1"/>
@@ -35,7 +34,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Grid.Column="1" Grid.Row="2" x:Name="btnComHub" Content="Community Hub" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" FontSize="33.333">
+        <Button Grid.Column="1" Grid.Row="4" x:Name="btnRegister" Content="Register" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" FontSize="33.333" TabIndex="3">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE0E0E0" Offset="1"/>
@@ -45,35 +44,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Grid.Column="1" Grid.Row="3" x:Name="btnOptions" Content="Options" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" RenderTransformOrigin="0.5,0.5" FontSize="33.333">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFE0E0E0" Offset="1"/>
-                    <GradientStop Color="#FF361C3C"/>
-                    <GradientStop Color="#FF35748E" Offset="0.797"/>
-                    <GradientStop Color="#FF353F5D" Offset="0.603"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button Grid.Column="1" Grid.Row="4" x:Name="btnCredits" Content="Credits" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" FontSize="33.333">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFE0E0E0" Offset="1"/>
-                    <GradientStop Color="#FF361C3C"/>
-                    <GradientStop Color="#FF35748E" Offset="0.797"/>
-                    <GradientStop Color="#FF353F5D" Offset="0.603"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button Grid.Column="1" Grid.Row="5" x:Name="btnAdminPanel" Content="Admin Panel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20" FontSize="33.333" IsEnabled="False" Visibility="Collapsed">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFE0E0E0" Offset="1"/>
-                    <GradientStop Color="#FF361C3C"/>
-                    <GradientStop Color="#FF35748E" Offset="0.797"/>
-                    <GradientStop Color="#FF353F5D" Offset="0.603"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
+        <TextBox x:Name="textBox" Grid.Column="1" Margin="10,20" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" TabIndex="0" FontSize="33.333" TextAlignment="Justify" Padding="10,4"/>
+        <PasswordBox x:Name="passwordBox" Grid.Column="1" Margin="10,20" Grid.Row="2" FontSize="33.333" Padding="10,4" TabIndex="1"/>
     </Grid>
 </Page>
