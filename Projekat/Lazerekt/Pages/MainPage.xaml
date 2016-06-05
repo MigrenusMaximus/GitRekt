@@ -21,8 +21,8 @@
             <ColumnDefinition Width="64*"/>
             <ColumnDefinition Width="90*"/>
         </Grid.ColumnDefinitions>
-        <Image Source="Assets\Images\Stars.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.RowSpan="6" />
-        <Image Source="Assets\Images\Lazerekt.png" Stretch="Uniform" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.ColumnSpan="3"/>
+        <Image Source="ms-appx:///Assets/Images/Stars.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.RowSpan="6" />
+        <Image Source="ms-appx:///Assets/Images/Lazerekt.png" Stretch="Uniform" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.ColumnSpan="3"/>
 
         <Button Grid.Column="1" Grid.Row="1" x:Name="btnPlay" Content="Play" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="#FFE0E0E0" Margin="10,20,10,20" FontSize="33.333" Click="btnPlay_Click">
             <Button.Background>
