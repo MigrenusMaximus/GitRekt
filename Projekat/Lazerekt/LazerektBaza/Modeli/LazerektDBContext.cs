@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.Entity;
 using Windows.Storage;
-
+// Server=tcp:lazerektapidbserver.database.windows.net,1433;Data Source=lazerektapidbserver.database.windows.net;Initial Catalog=lazerektdb;Persist Security Info=False;User ID=lazerekt_dev;Password=LazAPIPass1337;Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 namespace Lazerekt.LazerektBaza.Modeli
 {
     class LazerektDBContext : DbContext

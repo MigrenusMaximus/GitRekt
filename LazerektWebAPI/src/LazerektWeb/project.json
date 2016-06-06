@@ -22,13 +22,11 @@
     "dnx451": {
       "dependencies": {
         "Microsoft.Net.Http": "2.2.29",
-        "System.Net.Http": "4.0.1-beta-23516"
-      }
-    },
-    "dnxcore50": {
-      "dependencies": {
-        "Microsoft.Net.Http": "2.2.29",
-        "System.Net.Http": "4.0.1-beta-23516"
+        "System.Data.SqlClient": "4.1.0-rc2-24027"
+      },
+      "frameworkAssemblies": {
+        "System.Web": "4.0.0.0",
+        "System.Configuration": "4.0.0.0"        
       }
     }
   },
@@ -41,6 +39,7 @@
     "**.vspscc"
   ],
   "configurations": {
-    "Web": { }
+    "Web": { },
+    "WebTest": { }
   }
 }

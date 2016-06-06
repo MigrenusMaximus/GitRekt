@@ -1,22 +1,16 @@
 ﻿using Microsoft.AspNet.Mvc;
-using Microsoft.Net.Http;
 using Newtonsoft.Json;
 using System;
-using System.Diagnostics;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
+using System.Configuration;
+using System.Web.Configuration;
 
-namespace LazerektWeb.Controllers
-{
+namespace LazerektWeb.Controllers {
     [Route("lazerekt")]
     public class ValuesController : Controller {
         // GET: /lazerekt/
         [HttpGet]
-        public JsonResult Get() {
-            string[] mojString = { "Lazerekt", "Web API Root" };
-            var json = JsonConvert.SerializeObject(mojString);
-            return new JsonResult(json);
+        public string Get() {
+            return ConfigurationManager.ConnectionStrings["test"].ToString();
         }
 
         // GET 
@@ -30,10 +24,8 @@ namespace LazerektWeb.Controllers
                 login = delimitiran[0];
                 hashed_pass = delimitiran[1];
             } catch (IndexOutOfRangeException e) {
-                Debug.Write("Greska: " + e);
                 return "ErrL01";
             } catch (Exception any) {
-                Debug.Write("Neuhvacena greska: " + any);
                 return "Err001";
             }
 

@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Builder;
+﻿using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+using System.Data.SqlClient;
+using System.Web.Configuration;
+using System;
+using System.Diagnostics;
+
 namespace LazerektWeb
 {
     public class Startup
     {
+        static public SqlConnection dbConnection;
+
         public Startup(IHostingEnvironment env)
         {
             // Set up configuration sources.
@@ -19,6 +22,15 @@ namespace LazerektWeb
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+            Debug.Write("CONN_STRING" + WebConfigurationManager.ConnectionStrings["Database"].ToString());
+            try {
+                dbConnection = new SqlConnection(WebConfigurationManager.ConnectionStrings["Database"].ToString());
+                dbConnection.Open();
+            } catch(NullReferenceException e) {
+                Debug.Write("Greska: " + e.ToString());
+            } catch(SqlException e) {
+                Debug.Write("SQL Greska: " + e.ToString());
+            }
         }
 
         public IConfigurationRoot Configuration { get; set; }

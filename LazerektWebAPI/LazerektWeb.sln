@@ -16,12 +16,15 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		WebTest|Any CPU = WebTest|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Debug|Any CPU.ActiveCfg = Web|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Debug|Any CPU.Build.0 = Web|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Release|Any CPU.ActiveCfg = Web|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.Release|Any CPU.Build.0 = Web|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.WebTest|Any CPU.ActiveCfg = WebTest|Any CPU
+		{A16AAE92-A31E-49E1-865D-A4A7137C245B}.WebTest|Any CPU.Build.0 = WebTest|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
