@@ -7,11 +7,13 @@ using Microsoft.Extensions.Logging;
 using System.Data.SqlClient;
 using System;
 using System.Diagnostics;
+using System.Security.Cryptography;
 
 namespace LazerektWeb {
     public class Startup
     {
         static public SqlConnection dbConnection;
+        static public SHA256 hashManager = new SHA256CryptoServiceProvider();
 
         public Startup(IHostingEnvironment env)
         {
@@ -20,6 +22,8 @@ namespace LazerektWeb {
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+
+            hashManager.Initialize();
 
             try {
                 dbConnection = new SqlConnection(Configuration["ConnectionStrings:AzureDatabase"]);
