@@ -5,12 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 using System.Data.SqlClient;
-using System.Web.Configuration;
 using System;
 using System.Diagnostics;
 
-namespace LazerektWeb
-{
+namespace LazerektWeb {
     public class Startup
     {
         static public SqlConnection dbConnection;
@@ -22,14 +20,14 @@ namespace LazerektWeb
                 .AddJsonFile("appsettings.json")
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
-            Debug.Write("CONN_STRING" + WebConfigurationManager.ConnectionStrings["Database"].ToString());
+
             try {
-                dbConnection = new SqlConnection(WebConfigurationManager.ConnectionStrings["Database"].ToString());
+                dbConnection = new SqlConnection(Configuration["ConnectionStrings:AzureDatabase"]);
                 dbConnection.Open();
             } catch(NullReferenceException e) {
-                Debug.Write("Greska: " + e.ToString());
+                Debug.WriteLine("Greska: " + e.ToString());
             } catch(SqlException e) {
-                Debug.Write("SQL Greska: " + e.ToString());
+                Debug.WriteLine("SQL Greska: " + e.ToString());
             }
         }
 

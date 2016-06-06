@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNet.Mvc;
-using Newtonsoft.Json;
 using System;
-using System.Configuration;
-using System.Web.Configuration;
+using System.Diagnostics;
 
 namespace LazerektWeb.Controllers {
     [Route("lazerekt")]
@@ -10,7 +8,7 @@ namespace LazerektWeb.Controllers {
         // GET: /lazerekt/
         [HttpGet]
         public string Get() {
-            return ConfigurationManager.ConnectionStrings["test"].ToString();
+            return Startup.dbConnection.Database.ToString();
         }
 
         // GET 
@@ -24,8 +22,10 @@ namespace LazerektWeb.Controllers {
                 login = delimitiran[0];
                 hashed_pass = delimitiran[1];
             } catch (IndexOutOfRangeException e) {
+                Debug.WriteLine("OutOfRange: " + e.ToString());
                 return "ErrL01";
-            } catch (Exception any) {
+            } catch (Exception e) {
+                Debug.WriteLine("Greska: " + e.ToString());
                 return "Err001";
             }
 

@@ -4,6 +4,7 @@
     "emitEntryPoint": true
   },
   "dependencies": {
+    "EntityFramework": "6.1.3",
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
     "Microsoft.AspNet.Mvc.WebApiCompatShim": "6.0.0-rc1-final",
