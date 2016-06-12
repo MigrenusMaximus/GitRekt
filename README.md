@@ -75,3 +75,21 @@ Koristi se Elo sistem, provjeren sistem rangiranja takmicara na osnovu sposobnos
 1. Korisnik/Igrac - ima mogucnost stvaranja racuna, igranja preko njega sa drugim igracima, mogucnost predlaganja dodatnog sadrzaja za igru
 2. Moderator - uloga moderatora je da osigura postenu igru (da provjerava i zabranjuje pristup igracima koji varaju)
 3. Administrator - moze da imenuje nove moderatore i da mijenja sadrzaj same aplikacije
+
+## Final info
+
+1. Baza: Remote, Azure SQL Server
+2. Eksterni uredjaj: Planiran QR kod reader, ali nije uradjen
+3. Lokalna validacija pri loginu i remote validacija za login i registraciju:
+    - Lokalna validacija: https://github.com/ooad-2015-2016/GitRekt/blob/master/Projekat/LazerektFinal/FPS/LoginPage.xaml.cs
+    - Login validacija: https://github.com/ooad-2015-2016/GitRekt/blob/master/LazerektWebAPI/src/LazerektWeb/Controllers/LoginController.cs
+    - Register validacija: https://github.com/ooad-2015-2016/GitRekt/blob/master/LazerektWebAPI/src/LazerektWeb/Controllers/RegisterController.cs
+4. Eksterni servis: koristi se Azure Web API aplikacija spojena na Azure SQL Server bazu podataka, takodjer hostanu na Azure platformi. Entrypoint za API: http://lazerektapi.azurewebsites.net/lazerekt
+5. Mobilne funkcionalnosti: Planirano povezivanje na osnovu lokacije ali nije uradjeno
+6. Prilagodjavanje UI-a Windows Phone uredjajima: Koristi se skalabilni Grid da bi se skalirao UI: https://github.com/ooad-2015-2016/GitRekt/blob/master/Projekat/LazerektFinal/FPS/LoginPage.xaml
+7. Igra: 
+    - Exe: https://github.com/ooad-2015-2016/GitRekt/blob/master/UnityIgraExe.zip
+    - Projekat: https://github.com/igorvasiljevic/Overkill
+8. Izvjestaj o radu: Nema
+9. Help: Login za login, Register za registraciju. Play pokrece igru, a Community Hub sluzi za predlaganje novih stvari i kritike trenutnih
+10. Video: Nismo uspjeli da snimimo video zbog problema sa Visual Studiom
